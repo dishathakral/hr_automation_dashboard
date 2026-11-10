@@ -1,0 +1,23 @@
+# Python & Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node & Frontend Build
+frontend/node_modules/
+frontend/dist/
+
+# Environment & Secrets
+.env
+backend/.env
+frontend/.env*
+
+# Local Runtime Databases & Archives
+backend/data/*.db
+backend/data/*.db-*
+data/
+*.zip
+.DS_Store
+
